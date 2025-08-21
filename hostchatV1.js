@@ -16,12 +16,12 @@ const $customBanner = $(`
     <div class="info-text">
       <span>🎉 مرحباً بكم في شات هوست للجوال!</span>
       <div class="shine"></div>
-    </div>
     <div class="button-bar">
-      <button class="btn guest">👑 شات</button>
-      <button class="btn register">🌹 هوست</button>
-      <button class="btn login">🔗 شات</button>
-    </div>
+  <button class="btn guest">👑 شات جوال</button>
+  <button class="btn register">🌹 هوست</button>
+  <button class="btn login" onclick="window.open('https://www.hostchat.net/mobile', '_blank')">🔗 استضافه شات هوست</button>
+</div>
+
     <div class="countdown-wrapper">
       يبدأ الشات بعد: <span id="chatCountdown">10</span> ثواني
     </div>
